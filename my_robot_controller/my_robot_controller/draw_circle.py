@@ -19,6 +19,7 @@ class DrawCircleNode(Node):
         msg.linear.x = 2.0
         msg.angular.z = 1.0
         self.cmd_vel_pub_.publish(msg)
+        #comentario
 
 
 def main(args = None):
