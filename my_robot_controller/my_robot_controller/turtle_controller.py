@@ -10,7 +10,7 @@ class TurtleControllerNode(Node):
 
     def __init__(self):
         super().__init__("turtle_controller")
-        self.get_logger().info("Turtle Controller has been created")
+        self.get_logger().info("Turtle Controller has been started")
         self.pose_info = 0
         self.turtle_controller_subscriber_ = self.create_subscription(Pose, "/turtle1/pose", self.pose_callback, 10)
         self.turtle_controller_publisher_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
@@ -25,8 +25,6 @@ class TurtleControllerNode(Node):
             cmd.angular.y = 0.0
 
         self.turtle_controller_publisher_.publish(cmd)
-        
-        
 
 
 def main(args=None):
