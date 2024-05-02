@@ -14,10 +14,9 @@ class NumberCounterNode(Node):
         self.get_logger().info("Number Counter Node has been started")
 
     def number_counter_callback(self, number: Int64):
-        self.get_logger().info(str(self.counter))
         msg = Int64()
-        msg.data =  self.counter + number.data
-        self.counter += 1
+        self.counter += number.data
+        msg.data =  self.counter
         self.number_counter_publisher_.publish(msg)
 
 def main(args = None):
