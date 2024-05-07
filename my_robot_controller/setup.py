@@ -26,7 +26,8 @@ setup(
             "turtle_controller = my_robot_controller.turtle_controller:main",
             "number_publisher = my_robot_controller.number_publisher:main",
             "number_counter = my_robot_controller.number_counter:main",
-            "add_two_ints = my_robot_controller.add_two_ints:main"
+            "add_two_ints = my_robot_controller.add_two_ints:main",
+            "add_two_ints_client = my_robot_controller.add_two_ints_client:main"
         ],
     },
 )
