@@ -16,7 +16,6 @@ class NumberCounterNode(Node):
         self.get_logger().info("Number Counter Node has been started")
 
     def callback_reset_number_counter(self, request, response):
-        self.get_logger().info("teste aqui")
         if request.data == True:
             self.counter = 0
             response.success = True
