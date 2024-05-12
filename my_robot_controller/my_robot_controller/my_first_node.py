@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3     #indica ao SO qual interpreter deve ser utilizado para rodar o script (nesse caso o python 3)
 import rclpy
 from rclpy.node import Node #importa as funções do Node
 
