@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 # É PRECISO ADICIONAR ESSA LINHA E COLOCAR UMA NOVA MSG A CADA VEZ QUE CRIAR UMA NOVA
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HardwareStatus.msg"
+  "srv/ComputeRectangleArea.srv"
 )
 # É PRECISO ADICIONAR ESSA LINHA TB
 ament_export_dependencies(rosidl_default_runtime)

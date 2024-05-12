@@ -28,7 +28,8 @@ setup(
             "number_counter = my_robot_controller.number_counter:main",
             "add_two_ints = my_robot_controller.add_two_ints:main",
             "add_two_ints_client = my_robot_controller.add_two_ints_client:main",
-            "number_counter_client = my_robot_controller.number_counter_client:main"
+            "number_counter_client = my_robot_controller.number_counter_client:main",
+            "hw_status_publisher = my_robot_controller.hw_status_publisher:main"
         ],
     },
 )
