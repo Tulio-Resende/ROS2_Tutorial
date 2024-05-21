@@ -1,0 +1,9 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/tulio/ros2_tutorial_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/tulio/ros2_tutorial_ws/src/my_robot_interfaces:msg/LedStateStatus.msg",
+    "/home/tulio/ros2_tutorial_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/tulio/ros2_tutorial_ws/src/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}
