@@ -29,7 +29,9 @@ setup(
             "add_two_ints = my_robot_controller.add_two_ints:main",
             "add_two_ints_client = my_robot_controller.add_two_ints_client:main",
             "number_counter_client = my_robot_controller.number_counter_client:main",
-            "hw_status_publisher = my_robot_controller.hw_status_publisher:main"
+            "hw_status_publisher = my_robot_controller.hw_status_publisher:main",
+            "battery_node = my_robot_controller.battery_node:main",
+            "led_panel = my_robot_controller.led_panel:main"
         ],
     },
 )

@@ -1,0 +1,4 @@
+/home/tulio/ros2_tutorial_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/tulio/ros2_tutorial_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateStatus.idl
+/home/tulio/ros2_tutorial_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/tulio/ros2_tutorial_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl

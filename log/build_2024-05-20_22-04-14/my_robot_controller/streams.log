@@ -1,0 +1,28 @@
+[0.503s] Invoking command in '/home/tulio/ros2_tutorial_ws/src/build/my_robot_controller': PYTHONPATH=/home/tulio/ros2_tutorial_ws/src/build/my_robot_controller/prefix_override:/home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tulio/ros2_tutorial_ws/src/build/my_robot_controller/build --no-deps symlink_data
+[0.716s] running develop
+[0.846s] running egg_info
+[0.846s] writing my_robot_controller.egg-info/PKG-INFO
+[0.846s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.846s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.846s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.846s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.848s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.849s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.850s] running build_ext
+[0.850s] Creating /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.851s] Installing add_two_ints script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing add_two_ints_client script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing battery_node script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing draw_node script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing hw_status_publisher script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing led_panel script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing number_counter script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing number_counter_client script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing number_publisher script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.851s] Installing pose_subscriber script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.852s] Installing test_node script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.852s] Installing turtle_controller script to /home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.852s] 
+[0.852s] Installed /home/tulio/ros2_tutorial_ws/src/build/my_robot_controller
+[0.852s] running symlink_data
+[0.874s] Invoked command in '/home/tulio/ros2_tutorial_ws/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/tulio/ros2_tutorial_ws/src/build/my_robot_controller/prefix_override:/home/tulio/ros2_tutorial_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tulio/ros2_tutorial_ws/src/build/my_robot_controller/build --no-deps symlink_data
