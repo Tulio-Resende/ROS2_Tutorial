@@ -8,26 +8,31 @@ from my_robot_interfaces.srv import SetLed
 class LedPanelNode(Node):
 
     def __init__(self):
+        self.lead_states = [0, 0, 0]
         super().__init__("led_panel")
-        self.timer_ = self.create_timer(1.0, self.send_led_status)
         self.led_panel_server_ = self.create_service(SetLed, "set_led", self.callback_set_led)
         self.led_panel_publisher_ = self.create_publisher(LedStateStatus, "led_panel_state", 10)
         self.get_logger().info("Led Panel Node has been started")
-
-    def send_led_status(self):
-        pass
 
     def callback_set_led(self, request, response):
 
         msg = LedStateStatus()
 
-        msg.z = request.led_number
-        self.led_panel_publisher_.publish(msg)
-        self.get_logger().info(str(request.state))
-
-        response.success = True
-
-        return response
+        if request.led_number > len(self.lead_states):
+            response.success = False
+            return response
+        elif request.led_number == 3:
+            msg.led_states = [0, 0, 1]
+            self.get_logger().info(str(request.state))
+            self.led_panel_publisher_.publish(msg)
+            response.success = True
+            return response
+        elif request.led_number == 0:
+            msg.led_states = [0, 0, 0]
+            self.get_logger().info(str(request.state))
+            self.led_panel_publisher_.publish(msg)
+            response.success = True
+            return response
 
 def main(args = None):
 

@@ -8,6 +8,8 @@ from std_msgs.msg import Int64
 class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
+        self.declare_parameter("teste123")
+
         self.timer = self.create_timer(0.5, self.send_number)
         self.number_publisher_ = self.create_publisher(Int64, "number",10)
         self.get_logger().info("Number Publisher Node has been started")
